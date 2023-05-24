@@ -8,6 +8,6 @@
   "coverageDirectory": "./coverage",
   "testEnvironment": "node",
   "moduleNameMapper": {
-    "@app/user/(.*)": "src/$1"
+    "@app/~~appName~~/(.*)": "src/$1"
   }
 }

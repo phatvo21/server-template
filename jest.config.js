@@ -31,8 +31,8 @@ module.exports = {
   testEnvironment: 'node',
   roots: ['<rootDir>/src/', '<rootDir>/test/'],
   moduleNameMapper: {
-    '@app/user/(.*)': '<rootDir>/src/$1',
-    '@app/user': '<rootDir>/src',
+    '@app/~~appName~~/(.*)': '<rootDir>/src/$1',
+    '@app/~~appName~~': '<rootDir>/src',
   },
   setupFilesAfterEnv: ['jest-extended', '<rootDir>/test/setup.testing.ts'],
 };

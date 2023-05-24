@@ -1,5 +1,5 @@
 import { ServerType, RequestType, generateMockServer, generateRequest} from "nest-server-engine";
-import { AppModule } from "@app/user/app/app.module";
+import { AppModule } from "../../../src/app/app.module";
 
 describe('AppController (e2e)', () => {
   let server: ServerType;

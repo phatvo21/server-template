@@ -18,8 +18,8 @@
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
     "paths": {
-      "@app/user": ["src"],
-      "@app/user/*": ["src/*"]
+      "@app/~~appName~~": ["src"],
+      "@app/~~appName~~/*": ["src/*"]
     }
   }
 }
