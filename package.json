@@ -44,7 +44,6 @@
     "nest-server-engine": "^1.0.3"
   },
   "devDependencies": {
-    "@babel/register": "^7.21.0",
     "@nestjs/cli": "^9.0.0",
     "@nestjs/schematics": "^9.0.0",
     "@nestjs/testing": "^9.0.0",

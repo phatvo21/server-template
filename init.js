@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
-import fs from 'node:fs';
-import readline from 'node:readline';
-import process from 'node:process';
+const fs = require('fs');
+const readline = require('readline');
+const process = require('process');
 
 
 console.log(`\x1b[32m
