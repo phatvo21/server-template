@@ -1,0 +1,22 @@
+# Docker compose files used for testing in container
+version: '3'
+
+services:
+  db:
+    image: postgres:12-alpine
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: userdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - user_service_network
+
+networks:
+  user_service_network:
+
+volumes:
+  pgdata: {}
