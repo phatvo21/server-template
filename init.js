@@ -1,7 +1,4 @@
 /* eslint-disable no-console */
-import { register } from 'ts-node';
-register({ transpileOnly: true });
-
 import fs from 'node:fs';
 import readline from 'node:readline';
 import process from 'node:process';
