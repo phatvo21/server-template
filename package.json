@@ -16,7 +16,7 @@
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/main",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "jest --no-cache --coverage --silent --passWithNoTests --detectOpenHandles --forceExit",
+    "test": "jest",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "lint-staged": "lint-staged",
     "start:prod:compose": "docker-compose up --abort-on-container-exit --build",
@@ -41,6 +41,7 @@
   "dependencies": {
     "@nestjs/common": "^9.4.0",
     "@nestjs/core": "^9.4.0",
+    "dotenv": "^16.0.3",
     "nest-server-engine": "^1.0.3"
   },
   "devDependencies": {

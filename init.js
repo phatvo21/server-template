@@ -15,7 +15,14 @@ const reader = readline.createInterface({
     output: process.stdout,
 });
 
-const files = ['package.json', 'package-lock.json', 'jest.config.js', 'tsconfig.json', './test/jest-e2e.json'];
+const files = [
+    'package.json',
+    'package-lock.json',
+    'jest.config.js',
+    'tsconfig.json',
+    './test/jest-e2e.json',
+    './src/main.ts'
+];
 
 reader.question('Project name (ex: user-service): ', (name) => {
     reader.question('Description: ', (description) => {

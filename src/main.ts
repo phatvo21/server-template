@@ -1,4 +1,4 @@
 import {bootstrap} from 'nest-server-engine';
-import {AppModule} from "./app/app.module";
+import {AppModule} from "./app.module";
 
-bootstrap(AppModule, { title: 'User Service API', server: '/ws-user-service' });
+bootstrap(AppModule, { title: 'API Documents', server: '/ws-~~name~~-api' });
